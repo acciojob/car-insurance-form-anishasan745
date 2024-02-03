@@ -11,23 +11,23 @@
 
 	<form method="post">
 		<label for="name">Name</label>
-		<input type="text" id="name" required>
+		<input type="text" id="name"  required>
 <br>
 		<label for="email">Email</label>
-		<input type="email" required>
+		<input type="email" name="email" id="email" required>
 <br>
-		<h4>Gender</h4>
+		<label>Gender</label>
 		<label for="gender_m">Male</label>
-		<input type="radio" id="gender_m" name="gender" required> 
+		<input type="radio" id="gender_m" name="male" required> 
 
 		<label for="gender_f">Female</label>
-		<input type="radio" id="gender_f" name="gender" required>
+		<input type="radio" id="gender_f" name="female" required>
 <br>
-		<label for="car_brands">Car Brands</label>
+		<label for="cars">Car Brands</label>
 		<select id="cars">
-			<option>BMW</option>
-			<option>Audi</option>
-			<option>Mercedes</option>
+			<option value="BMW">BMW</option>
+			<option value="Audi">Audi</option>
+			<option value="Mercedes">Mercedes</option>
 		</select>
 <br>
 		<label for="age">Car Age</label>
